@@ -58,15 +58,24 @@ npm install -g istanbul nyc opn-cli
     - them taking in a string form of a number like "3" and asserting that it returns number 9 or 27.
     - them returning a number
 
+**i think i did this**
+
+
+
+
 ## web site setup
 + Create main_webServer.js file (like in ex8) under src directory that will have main express app code
 + Let main_webServer.js use (via require) myPowers module created above 
 + Create page templates "home.ejs", "square.ejs", "cube.ejs", "about.html", "error.ejs" under src/views/pages (like ex8)
 + Create partial templates "head.ejs", "header.ejs", "footer.ejs" under src/views/partials (like ex8)
-+ Let "head.ejs" use bootstrap and use head.title passed to it (like ex8)
++ Let "head.ejs" use bootstrap and use head.title passed to it (like ex8) *i have stopped here*
 + Let "header.ejs" have nav elements per screen capture (like ex8)
 + Let "footer.ejs" have some html (like ex8)
 + Let every ejs page have an h2 element with your name, lastname
+
+**did this i think **
+
+
 + Let every ejs page template include "head.ejs", "header.ejs", "footer.ejs" (like ex8) 
 + Add code for handling routes "/", "/square", "/cube", "/about", "/*" for http action GET in main_webServer.js
 + Let "/" route use "home.ejs" template passing {head.title} object with some title like "Hello express".
@@ -85,4 +94,4 @@ npm install -g istanbul nyc opn-cli
 + run unit tests and coverage report. Capture its output of coverage report on git bash console
 + screen capture coverage output in a browser
 + start up the app, screen capture home ("/"), square, cube, about, error page views
-+ be ready to run it on your laptop and demo it to ilker
++ be ready to run it on your laptop and demo it to ilker# Exam-Section-2
